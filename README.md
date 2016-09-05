@@ -33,7 +33,7 @@ trivial.
 
 Refer to the sample project `p_bf4` included with the release.
 
-1. Include "Cheat.hpp" from core, and create a new class `FSampleCheat` that inherits from `FCheat`.
+Include "Cheat.hpp" from core, and create a new class `FSampleCheat` that inherits from `FCheat`.
 
 ```cpp
 class FSampleCheat : public FCheat {
@@ -44,7 +44,7 @@ public:
 };
 ```
 
-2. Implement `Create`, `Ready` and `Update` virtual functions:
+Implement `Create`, `Ready` and `Update` virtual functions:
 
 ```cpp
 b32 FSampleCheat::Create() {
@@ -66,16 +66,12 @@ void FSampleCheat::Update() {
 }
 ```
 
-3. Run the cheat using the sample below:
+Run the cheat using the sample below:
 
 ```cpp
 FCheatSample cheat = {};
 cheat.Run(cmdLine, L"Window Title", "Window Class");
 ```
-
-1. Rename mod_div.dll to mod.dll and place in the game's working directory.
-2. Inject loader.dll into the game with your a DLL injector for Windows.
-3. Refer to keybindings in the source code for different modules.
 
 ### Building
 
