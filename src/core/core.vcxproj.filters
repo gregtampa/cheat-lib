@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{0818167a-ece1-4c85-b332-c8868ce9fac4}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{d7cf965d-aedd-471f-8716-577eb648a301}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{4a00163e-3e88-40a9-9a4d-a03f1d1d9eab}</UniqueIdentifier>
+      <Extensions>hlsl;hlsli;hlsi;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Types.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PS.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VS.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
